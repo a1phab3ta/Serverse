@@ -1,0 +1,38 @@
+IBM Research Triangle Park~~2024-03-21 11:08:05~~Added Partner~~Research~~Interships~~Rob Bowler~~rob@ibm.com~~980-556-4765
+Biogen~~2024-03-21 11:12:03~~Added Partner~~Biology Think Tank~~Research Opportunities, Internships~~Charles Harley~~charles@biogen.org~~980-557-0314
+IBM Research Triangle Park~~2024-03-21 11:12:50~~Deleted~~Research~~Interships~~Rob Bowler~~rob@ibm.com~~980-556-4765
+IBM~~2024-03-21 11:32:46~~Added Partner~~Software Company~~Computers~~James~~james@ibm.org~~980-456-7890
+IBM~~2024-03-21 11:33:08~~Updated~~Software Company~~Computers~~James Charles~~james@ibm.org~~980-456-7890
+IBM~~2024-03-21 11:33:22~~Deleted~~Software Company~~Computers~~James Charles~~james@ibm.org~~980-456-7890
+Research Triangle Park (RTP)~~2024-03-21 13:28:08~~Added Partner~~Technology and Research Park~~Collaboration on STEM research projects and internships.~~Emily Johnson~~emily@rtp.org~~919-123-4567
+North Carolina Biotechnology Center~~2024-03-21 13:28:08~~Added Partner~~Biotechnology Organization~~Providing resources and support for biotechnology education and research.~~Michael Adams~~michael@ncbiotech.org~~919-987-6543
+SAS Institute~~2024-03-21 13:28:08~~Added Partner~~Software Company~~Partnering for data analytics and software development projects.~~Sarah Lee~~sarah@sas.com~~919-876-5432
+GlaxoSmithKline~~2024-03-21 13:28:08~~Added Partner~~Pharmaceutical Company~~Offering internships and resources in pharmaceutical research.~~David Brown~~david@gsk.com~~919-234-5678
+Duke Energy~~2024-03-21 13:28:08~~Added Partner~~Energy Company~~Supporting STEM education initiatives and renewable energy projects.~~Jessica Green~~jessica@duke-energy.com~~919-345-6789
+IBM Research Triangle Park~~2024-03-21 13:28:08~~Added Partner~~Technology Company~~Collaboration on computer science and technology innovation.~~Mark Wilson~~mark@ibm.com~~919-456-7890
+Red Hat~~2024-03-21 13:28:08~~Added Partner~~Software Company~~Offering opportunities for open-source software development and internships.~~Rachel Johnson~~rachel@redhat.com~~919-567-8901
+North Carolina Museum of Natural Sciences~~2024-03-21 13:28:08~~Added Partner~~Museum~~Collaboration on science education programs and exhibits.~~Brian Miller~~brian@museum.org~~919-678-9012
+Cisco Systems~~2024-03-21 13:28:08~~Added Partner~~Technology Company~~Partnering for networking and cybersecurity education.~~Andrew White~~andrew@cisco.com~~919-789-0123
+North Carolina State University~~2024-03-21 13:28:08~~Added Partner~~University~~Collaborating on research projects and dual enrollment programs.~~Jennifer Smith~~jennifer@ncsu.edu~~919-890-1234
+UNC Chapel Hill~~2024-03-21 13:28:08~~Added Partner~~University~~Offering resources for medical research and healthcare education.~~Michael Johnson~~michael@unc.edu~~919-901-2345
+North Carolina Department of Environmental Quality~~2024-03-21 13:28:08~~Added Partner~~Government Agency~~Collaboration on environmental science projects and initiatives.~~Anna Brown~~anna@ncdeq.gov~~919-012-3456
+STEM Outreach Organizations~~2024-03-21 13:28:08~~Added Partner~~Nonprofit Organization~~Partnerships with local STEM outreach groups for community engagement.~~David Johnson~~david@stemoutreach.org~~919-234-5678
+North Carolina School of Engineering~~2024-03-21 13:28:08~~Added Partner~~University~~Joint programs and resources for engineering education.~~Emily White~~emily@engineering.edu~~919-345-6789
+Local Hospitals and Medical Centers~~2024-03-21 13:28:08~~Added Partner~~Healthcare~~Internship opportunities in healthcare and biomedical research.~~Jessica Smith~~jessica@hospital.org~~919-456-7890
+National Institute of Environmental Health Sciences (NIEHS)~~2024-03-21 13:28:08~~Added Partner~~Research Institute~~Collaboration on environmental health research.~~Adam Green~~adam@niehs.gov~~919-567-8901
+North Carolina Space Grant Consortium~~2024-03-21 13:28:08~~Added Partner~~Space Exploration Organization~~Opportunities for aerospace and space science education.~~Rachel Brown~~rachel@ncspacegrant.org~~919-678-9012
+Biogen~~2024-03-21 13:28:08~~Added Partner~~Biotechnology Company~~Partnering for biotechnology research and education initiatives.~~Michael Smith~~michael@biogen.com~~919-789-0123
+Google Fiber~~2024-03-21 13:28:08~~Added Partner~~Technology Company~~Supporting technology infrastructure and digital literacy programs.~~John Green~~john@googlefiber.com~~919-890-1234
+North Carolina Department of Transportation~~2024-03-21 13:28:08~~Added Partner~~Government Agency~~Collaboration on transportation engineering and infrastructure projects.~~David White~~david@ncdot.gov~~919-901-2345
+STEM-focused Nonprofit Organizations~~2024-03-21 13:28:08~~Added Partner~~Nonprofit Organization~~Collaborating with local nonprofits for STEM outreach and education.~~Emily Brown~~emily@stemnonprofit.org~~919-012-3456
+Glenn Research Center~~2024-03-21 13:28:08~~Added Partner~~NASA Research Center~~NASA partnership for space exploration and STEM education.~~Anna Johnson~~anna@nasa.gov~~919-234-5678
+North Carolina Zoo~~2024-03-21 13:28:08~~Added Partner~~Zoo~~Collaboration on conservation education and wildlife research.~~Michael Green~~michael@nczoo.org~~919-345-6789
+Science Education Centers~~2024-03-21 13:28:08~~Added Partner~~Education Center~~Partnering with local science centers for educational programs.~~Jessica Brown~~jessica@sciencecenter.org~~919-456-7890
+North Carolina State Parks~~2024-03-21 13:28:08~~Added Partner~~Government Agency~~Collaboration on environmental science and outdoor education programs.~~David Green~~david@ncparks.gov~~919-567-8901
+Biogen~~2024-03-21 13:28:47~~Deleted~~Biology Think Tank~~Research Opportunities, Internships~~Charles Harley~~charles@biogen.org~~980-557-0314
+Kramden Institute~~2024-03-21 16:53:59~~Added Partner~~Charity~~Volunteering Opportunities~~Joe~~joe@kramden.org~~980-446-0317
+Kramden Institute~~2024-03-21 16:54:22~~Updated~~Charity~~Volunteering Opportunities~~Joe Hadley~~joe@kramden.org~~980-446-0317
+Kramden Institute~~2024-03-21 16:54:33~~Deleted~~Charity~~Volunteering Opportunities~~Joe Hadley~~joe@kramden.org~~980-446-0317
+Research Triangle Park (RTP)~~2024-03-31 13:42:41~~Updated~~Technology and Research Park~~Collaboration on STEM research projects and internships.~~Emily Johnson~~emily@rtp.org~~919-123-4567
+rockefeller~~2024-04-18 09:10:33~~Deleted~~rich guy~~oil~~Saturday~~notstevenguikazui@gmail.com~~333333333
+Steven Gu~~2024-04-18 09:10:36~~Deleted~~pooperscooper~~bad~~Wednesday;Friday;Sunday~~gu25s@ncssm.edu~~7777777777

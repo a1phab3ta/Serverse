@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help: Editing a Partner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .step {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+        .step h2 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        .step p {
+            margin-bottom: 15px;
+        }
+        .step img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            display: block;
+            text-align: center;
+            color: #007bff;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Help: Editing a Partner</h1>
+    <div class="step">
+        <h2>Step 1: Click on the Partner's Name</h2>
+        <p>Start by locating the partner you want to edit in the list of partners. Click on the partner's name to access their details.</p>
+        <img src="{{ url_for('serve_image', filename='edit_help_img1.jpg') }}" alt="Submit">
+    </div>
+    <div class="step">
+        <h2>Step 2: Update Information</h2>
+        <p>Once you're on the partner's details page, edit all the rows you want to change.</p>
+        <img src="{{ url_for('serve_image', filename='edit_help_img2.jpg') }}" alt="Submit">
+    </div>
+    <div class="step">
+        <h2>Step 3: Submit</h2>
+        <p>Once you are done changing all of the rows that you want, click the Submit button.</p>
+        <img src="{{ url_for('serve_image', filename='edit_help_img3.jpg') }}" alt="Submit">
+    </div>
+    <div class="step">
+        <h2>Step 4: Confirm</h2>
+        <p>An alert will pop up at the top of your screen asking you to confirm the edit. Click "OK" to confirm.</p>
+        <img src="{{ url_for('serve_image', filename='edit_help_img4.jpg') }}" alt="Submit">
+    </div>
+    <a href="{{ url_for('help') }}">Back</a>
+</body>
+</html>

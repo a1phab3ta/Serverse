@@ -1,0 +1,203 @@
+[
+    {
+        "name": "Research Triangle Park (RTP)",
+        "organization_type": "Technology and Research Park",
+        "resources_available": "Collaboration on STEM research projects and internships.",
+        "contact_person": "Emily Johnson",
+        "contact_email": "emily@rtp.org",
+        "contact_phone": "919-123-4567"
+    },
+    {
+        "name": "North Carolina Biotechnology Center",
+        "organization_type": "Biotechnology Organization",
+        "resources_available": "Providing resources and support for biotechnology education and research.",
+        "contact_person": "Michael Adams",
+        "contact_email": "michael@ncbiotech.org",
+        "contact_phone": "919-987-6543"
+    },
+    {
+        "name": "SAS Institute",
+        "organization_type": "Software Company",
+        "resources_available": "Partnering for data analytics and software development projects.",
+        "contact_person": "Sarah Lee",
+        "contact_email": "sarah@sas.com",
+        "contact_phone": "919-876-5432"
+    },
+    {
+        "name": "GlaxoSmithKline",
+        "organization_type": "Pharmaceutical Company",
+        "resources_available": "Offering internships and resources in pharmaceutical research.",
+        "contact_person": "David Brown",
+        "contact_email": "david@gsk.com",
+        "contact_phone": "919-234-5678"
+    },
+    {
+        "name": "Duke Energy",
+        "organization_type": "Energy Company",
+        "resources_available": "Supporting STEM education initiatives and renewable energy projects.",
+        "contact_person": "Jessica Green",
+        "contact_email": "jessica@duke-energy.com",
+        "contact_phone": "919-345-6789"
+    },
+    {
+        "name": "IBM Research Triangle Park",
+        "organization_type": "Technology Company",
+        "resources_available": "Collaboration on computer science and technology innovation.",
+        "contact_person": "Mark Wilson",
+        "contact_email": "mark@ibm.com",
+        "contact_phone": "919-456-7890"
+    },
+    {
+        "name": "Red Hat",
+        "organization_type": "Software Company",
+        "resources_available": "Offering opportunities for open-source software development and internships.",
+        "contact_person": "Rachel Johnson",
+        "contact_email": "rachel@redhat.com",
+        "contact_phone": "919-567-8901"
+    },
+    {
+        "name": "North Carolina Museum of Natural Sciences",
+        "organization_type": "Museum",
+        "resources_available": "Collaboration on science education programs and exhibits.",
+        "contact_person": "Brian Miller",
+        "contact_email": "brian@museum.org",
+        "contact_phone": "919-678-9012"
+    },
+    {
+        "name": "Cisco Systems",
+        "organization_type": "Technology Company",
+        "resources_available": "Partnering for networking and cybersecurity education.",
+        "contact_person": "Andrew White",
+        "contact_email": "andrew@cisco.com",
+        "contact_phone": "919-789-0123"
+    },
+    {
+        "name": "North Carolina State University",
+        "organization_type": "University",
+        "resources_available": "Collaborating on research projects and dual enrollment programs.",
+        "contact_person": "Jennifer Smith",
+        "contact_email": "jennifer@ncsu.edu",
+        "contact_phone": "919-890-1234"
+    },
+    {
+        "name": "UNC Chapel Hill",
+        "organization_type": "University",
+        "resources_available": "Offering resources for medical research and healthcare education.",
+        "contact_person": "Michael Johnson",
+        "contact_email": "michael@unc.edu",
+        "contact_phone": "919-901-2345"
+    },
+    {
+        "name": "North Carolina Department of Environmental Quality",
+        "organization_type": "Government Agency",
+        "resources_available": "Collaboration on environmental science projects and initiatives.",
+        "contact_person": "Anna Brown",
+        "contact_email": "anna@ncdeq.gov",
+        "contact_phone": "919-012-3456"
+    },
+    {
+        "name": "STEM Outreach Organizations",
+        "organization_type": "Nonprofit Organization",
+        "resources_available": "Partnerships with local STEM outreach groups for community engagement.",
+        "contact_person": "David Johnson",
+        "contact_email": "david@stemoutreach.org",
+        "contact_phone": "919-234-5678"
+    },
+    {
+        "name": "North Carolina School of Engineering",
+        "organization_type": "University",
+        "resources_available": "Joint programs and resources for engineering education.",
+        "contact_person": "Emily White",
+        "contact_email": "emily@engineering.edu",
+        "contact_phone": "919-345-6789"
+    },
+    {
+        "name": "Local Hospitals and Medical Centers",
+        "organization_type": "Healthcare",
+        "resources_available": "Internship opportunities in healthcare and biomedical research.",
+        "contact_person": "Jessica Smith",
+        "contact_email": "jessica@hospital.org",
+        "contact_phone": "919-456-7890"
+    },
+    {
+        "name": "National Institute of Environmental Health Sciences (NIEHS)",
+        "organization_type": "Research Institute",
+        "resources_available": "Collaboration on environmental health research.",
+        "contact_person": "Adam Green",
+        "contact_email": "adam@niehs.gov",
+        "contact_phone": "919-567-8901"
+    },
+    {
+        "name": "North Carolina Space Grant Consortium",
+        "organization_type": "Space Exploration Organization",
+        "resources_available": "Opportunities for aerospace and space science education.",
+        "contact_person": "Rachel Brown",
+        "contact_email": "rachel@ncspacegrant.org",
+        "contact_phone": "919-678-9012"
+    },
+    {
+        "name": "Biogen",
+        "organization_type": "Biotechnology Company",
+        "resources_available": "Partnering for biotechnology research and education initiatives.",
+        "contact_person": "Michael Smith",
+        "contact_email": "michael@biogen.com",
+        "contact_phone": "919-789-0123"
+    },
+    {
+        "name": "Google Fiber",
+        "organization_type": "Technology Company",
+        "resources_available": "Supporting technology infrastructure and digital literacy programs.",
+        "contact_person": "John Green",
+        "contact_email": "john@googlefiber.com",
+        "contact_phone": "919-890-1234"
+    },
+    {
+        "name": "North Carolina Department of Transportation",
+        "organization_type": "Government Agency",
+        "resources_available": "Collaboration on transportation engineering and infrastructure projects.",
+        "contact_person": "David White",
+        "contact_email": "david@ncdot.gov",
+        "contact_phone": "919-901-2345"
+    },
+    {
+        "name": "STEM-focused Nonprofit Organizations",
+        "organization_type": "Nonprofit Organization",
+        "resources_available": "Collaborating with local nonprofits for STEM outreach and education.",
+        "contact_person": "Emily Brown",
+        "contact_email": "emily@stemnonprofit.org",
+        "contact_phone": "919-012-3456"
+    },
+    {
+        "name": "Glenn Research Center",
+        "organization_type": "NASA Research Center",
+        "resources_available": "NASA partnership for space exploration and STEM education.",
+        "contact_person": "Anna Johnson",
+        "contact_email": "anna@nasa.gov",
+        "contact_phone": "919-234-5678"
+    },
+    {
+        "name": "North Carolina Zoo",
+        "organization_type": "Zoo",
+        "resources_available": "Collaboration on conservation education and wildlife research.",
+        "contact_person": "Michael Green",
+        "contact_email": "michael@nczoo.org",
+        "contact_phone": "919-345-6789"
+    },
+    {
+        "name": "Science Education Centers",
+        "organization_type": "Education Center",
+        "resources_available": "Partnering with local science centers for educational programs.",
+        "contact_person": "Jessica Brown",
+        "contact_email": "jessica@sciencecenter.org",
+        "contact_phone": "919-456-7890"
+    },
+    {
+        "name": "North Carolina State Parks",
+        "organization_type": "Government Agency",
+        "resources_available": "Collaboration on environmental science and outdoor education programs.",
+        "contact_person": "David Green",
+        "contact_email": "david@ncparks.gov",
+        "contact_phone": "919-567-8901"
+    }
+    ]
+    

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .help-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+        .help-item h2 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        .help-item p {
+            margin-bottom: 15px;
+        }
+        a {
+            display: block;
+            text-align: center;
+            color: #007bff;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Help Menu</h1>
+    <div class="help-item">
+        <h2>Adding a Partner</h2>
+        <p>Learn how to add a new partner to the database.</p>
+        <a href="{{ url_for('adding_help') }}">View Help</a>
+    </div>
+    <div class="help-item">
+        <h2>Editing a Partner</h2>
+        <p>Discover how to edit the details of an existing partner.</p>
+        <a href="{{ url_for('editing_help') }}">View Help</a>
+    </div>
+    <div class="help-item">
+        <h2>Deleting a Partner</h2>
+        <p>Find out how to remove a partner from the database.</p>
+        <a href="{{ url_for('deleting_help') }}">View Help</a>
+    </div>
+    <div class="help-item">
+        <h2>Generating a Report</h2>
+        <p>Learn how to generate a report of database actions.</p>
+        <a href="{{ url_for('report_help') }}">View Help</a>
+    </div>
+    <div class="help-item">
+        <h2>Searching Partners</h2>
+        <p>Discover how to search for specific partners.</p>
+        <a href="{{ url_for('searching_help') }}">View Help</a>
+    </div>
+    <div class="help-item">
+        <h2>Sorting Partners</h2>
+        <p>Learn how to sort partners based on different criteria.</p>
+        <a href="{{ url_for('sorting_help') }}">View Help</a>
+    </div>
+    <a href="{{ url_for('index') }}">Back</a>
+</body>
+</html>

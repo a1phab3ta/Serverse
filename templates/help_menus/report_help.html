@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help: Report Generation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .step {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+        .step h2 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        .step p {
+            margin-bottom: 15px;
+        }
+        .step img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            display: block;
+            text-align: center;
+            color: #007bff;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Help: Report Generation</h1>
+    <div class="step">
+        <h2>Step 1: Navigate to the Report Page</h2>
+        <p>Click the "Generate Report" button at the top of your main screen, right below the search bar.</p>
+        <img src="{{ url_for('serve_image', filename='report_help_img1.jpg') }}" alt="Submit">
+    </div>
+    <div class="step">
+        <h2>Step 2: View Report</h2>
+        <p>Once on the report page, you can see all of the changes that have been made to the partners, like deletion, addition, or edits. You can also search among the changes using the search bar.</p>
+        <img src="{{ url_for('serve_image', filename='report_help_img2.jpg') }}" alt="Submit">
+    </div>
+    <div class="step">
+        <h2>Step 3: View History</h2>
+        <p>Click on any Partner Name in the file to view the state of the partner when the change was made.</p>
+        <img src="{{ url_for('serve_image', filename='report_help_img3.jpg') }}" alt="Submit">
+    </div>
+    
+    <div class="step">
+        <h2>Step 4: History</h2>
+        <p>You can see all the data about the partner before it was changed here.</p>
+        <img src="{{ url_for('serve_image', filename='report_help_img5.jpg') }}" alt="Submit">
+    </div>
+    <a href="{{ url_for('help') }}">Back</a>
+</body>
+</html>

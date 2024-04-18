@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Partner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <script>
+  
+        var error = "{{ error }}";
+
+        // Check if the message is not empty
+        if (error) {
+            // Display the message as an alert
+            alert(error);
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Edit Partner</h1>
+        <form action="{{ url_for('edit_partner', partner_id=partner[0]) }}" method="POST" onsubmit="return confirm('Are you sure you want to edit this partner?');">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="{{ partner[1] }}">
+
+            <label for="role">Role:</label>
+            <input type="text" id="organization_type" name="organization_type" value="{{ partner[2] }}" required><br>
+            
+            <label for="type_of_service">Type of Service:</label>
+            <input type="text" id="resources_available" name="resources_available" value="{{ partner[3] }}" required><br>
+            
+            <label for="available_days">Available Days:</label>
+            <input type="text" id="contact_person" name="contact_person" value="{{ partner[4] }}" required><br>
+
+            <label for="contact_email">Contact Email:</label>
+            <input type="email" id="contact_email" name="contact_email" value="{{ partner[5] }}" required>
+
+            <label for="contact_phone">Contact Phone:</label>
+            <input type="text" id="contact_phone" name="contact_phone" value="{{ partner[6] }}" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter a phone number in the format XXX-XXX-XXXX" required>
+
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+        <a href="{{ url_for('index') }}">Back</a>
+    </div>
+</body>
+</html>

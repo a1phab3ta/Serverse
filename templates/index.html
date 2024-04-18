@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serverse</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7; /* Light gray background */
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px; /* Rounded corners */
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .add-partner-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+            background-color: #036f2e; /* Coral red */
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+        }
+        .add-partner-btn:hover {
+            background-color: #07b72a; /* Darker coral red on hover */
+        }
+        .events-partner-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+            background-color: #003f9d; /* Coral red */
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+        }
+        .events-partner-btn:hover {
+            background-color: #008b89; /* Darker coral red on hover */
+        }
+        .delete-partner-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+            background-color: #dc3545; /* Red */
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+        }
+        .delete-partner-btn:hover {
+            background-color: #c82333; /* Darker red on hover */
+        }
+        .search-form {
+            margin-bottom: 20px;
+        }
+        .partner-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .partner-item {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners */
+            background-color: #f0f8ff; /* Light blue background */
+        }
+        .partner-item h3 {
+            margin-top: 0;
+            color: #007bff; /* Blue heading color */
+        }
+        .partner-item p {
+            color: #444;
+        }
+        .help-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px;
+            background-color: #007bff; /* Blue */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .help-btn:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Serverse</h1>
+        <a href="/help" class="help-btn">Help</a>
+        <!-- Search Form -->
+        <a href="/events" class="events-partner-btn">Event View</a>
+        <form action="/" method="GET" class="search-form">
+            <label for="search_query">Search:</label>
+            <input type="text" id="search_query" name="q" placeholder="Enter search keywords" value="{{ request.args.get('q', '') }}">
+            <button type="submit">Search</button>
+        </form>
+        
+        <!-- Generate Report Button -->
+        <form action="/report" method="GET">
+            <button type="submit">Generate Report</button>
+        </form>
+
+        
+
+        <!-- Add New Member Button -->
+        <a href="/add_partner" class="add-partner-btn">Add New Partner</a>
+        
+        <form action="{{ url_for('sort_partners') }}" method="post">
+            <button type="submit" class="sort-partners-btn">Sort Partners Alphabetically</button>
+        </form>
+        <!-- Member List -->
+        <h2>Partners</h2>
+        <ul class="partner-list">
+            {% for partner in partners %}
+            <li class="partner-item">
+                <h3><a href="{{ url_for('edit_partner', partner_id=partner[0]) }}">{{ partner[1] }}</a></h3>
+                <p><strong>Role:</strong> {{ partner[2] }}</p>
+                <p><strong>Type of Service:</strong> {{ partner[3] }}</p>
+                <p><strong>Available Days:</strong> {{ partner[4] }}</p>
+                <p><strong>Contact Email:</strong> {{ partner[5] }}</p>
+                <p><strong>Contact Phone:</strong> {{ partner[6] }}</p>
+                <form action="/delete_partner/{{ partner[0] }}" method="post">
+                    <button type="submit" class="delete-partner-btn" onclick="return confirm('Are you sure you want to delete this partner?')">Delete</button>
+                </form>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
