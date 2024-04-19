@@ -163,14 +163,20 @@ def add_event():
         location = request.form['location']
         date = request.form['date']
         people_attending = request.form.getlist('people_attending[]')
+        conn = sqlite3.connect('partnerdb.sqlite')
+        cursor = conn.cursor()
+        emails = []
+        for i in people_attending:
+            emails.append(cursor.execute("SELECT contact_email FROM partners WHERE name=?", (i,)).fetchone()[0])
         people_attending = ','.join(people_attending)
+        emails = ','.join(emails)
         # Connect to SQLite database
         conn = sqlite3.connect('events.db')
         cursor = conn.cursor()
 
         # Insert new event into the database
-        cursor.execute("INSERT INTO events (name, location, date, people_attending) VALUES (?, ?, ?, ?)",
-                       (name, location, date, people_attending))
+        cursor.execute("INSERT INTO events (name, location, date, people_attending, participant_emails) VALUES (?, ?, ?, ?, ?)",
+                       (name, location, date, people_attending, emails))
         conn.commit()
         conn.close()
 
