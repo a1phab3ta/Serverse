@@ -45,9 +45,9 @@
 <body>
     <div class="container">
         <h1>{{ partner.name }}</h1>
-        <p><strong>Role:</strong> {{ partner.role }}</p>
-        <p><strong>Type of Service:</strong> {{ partner.type_of_service }}</p>
-        <p><strong>Available Days:</strong> {{ partner.available_days }}</p>
+        <p><strong>Role:</strong> {{ partner.organization_type }}</p>
+        <p><strong>Type of Service:</strong> {{ partner.resources }}</p>
+        <p><strong>Available Days:</strong> {{ partner.contact_person }}</p>
         <p><strong>Contact Email:</strong> {{ partner.contact_email }}</p>
         <p><strong>Contact Phone:</strong> {{ partner.contact_phone }}</p>
         <a href="{{ url_for('generate_report') }}">Back to Report</a>
