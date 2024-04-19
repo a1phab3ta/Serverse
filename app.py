@@ -253,7 +253,9 @@ def add_csv_data():
         for idx, row in enumerate(reader):
             if idx == 0: 
                 continue
+            
             timestamp, name, organization_type, resources_available, contact_person, contact_email, contact_phone = row
+            log_change("Added", name, organization_type, resources_available, contact_person, contact_email, contact_phone)
             cursor.execute("INSERT INTO partners (name, role, service_type, available_days, contact_email, contact_phone) VALUES (?, ?, ?, ?, ?, ?)", 
                            (name, organization_type, resources_available, contact_person, contact_email, contact_phone))
 
