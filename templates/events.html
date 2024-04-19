@@ -70,6 +70,7 @@
                     <th>Location</th>
                     <th>Date</th>
                     <th>People Attending</th>
+                    <th>Send Email to All Participants</th>
                 </tr>
             </thead>
             <tbody>
@@ -79,6 +80,7 @@
                     <td>{{ event[2] }}</td>
                     <td>{{ event[3] }}</td>
                     <td>{{ event[4] }}</td>
+                    <td><a href = "mailto:{{ event[5]  }}">Send Email</td>
                 </tr>
                 {% endfor %}
             </tbody>
